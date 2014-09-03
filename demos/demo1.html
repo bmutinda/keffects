@@ -1,0 +1,23 @@
+<html>
+<head><title>Text Effects </title>
+<script type="text/javascript" src="../src/jquery.js"></script>
+<script type="text/javascript" src="../src/keffects.js"></script>
+<script type="text/javascript">
+
+$(document).ready( function(){
+	$("#startEffect").click( function(){
+		$("#text").kEffects({ time: 1000 });
+	});	
+	
+})
+	
+</script>
+</head>
+<body>
+
+<button id="startEffect">Effects</button>
+<div id="text">Mutinda</div>
+<div id="text2">Boniface</div>
+
+</body>
+</html>
